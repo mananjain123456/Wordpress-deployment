@@ -1,5 +1,4 @@
 cd  /root/ansible
-
 docker build -t $JOB_NAME:$BUILD_ID .
 
 docker tag $JOB_NAME:$BUILD_ID jacksneel/$JOB_NAME:$BUILD_ID
