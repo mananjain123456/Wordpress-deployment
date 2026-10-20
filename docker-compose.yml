@@ -15,7 +15,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: manandock/wordpress:latest
+    image: manandock/Wordpress:latest
     ports:
       - "80:80"
     environment:
