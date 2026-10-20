@@ -1,4 +1,5 @@
 #!/bin/bash
+
 cd  /root/ansible
 
 docker build -t $JOB_NAME:$BUILD_ID .
